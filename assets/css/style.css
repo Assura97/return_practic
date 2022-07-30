@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #926239;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+.header{
+  background-image: url(./../images/beachshowcase.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-color: beige;
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+  height: 100vh;
+  width: 100vw;
+
+
+  margin: 0;
+  padding: 0;
+}
+.header-txt{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: bold;
+  
+  text-align: center;
+  text-transform: capitalize;
+
+  padding-top:  40vh;
+  margin: 0;
+}
+.header-content{
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+
+}
+.header-content, .header-txt, .button{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.button{
+  display: inline-block;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+  border: solid 1px #926239;
+  border-radius: 10px;
+
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+.bg-brown{
+  background-color: #926239;
+  color: white;
+}
+p{
+  margin: 0;
+  text-align: center;
+}
+.box-1, .box-2, .box-3{
+  display: inline-block;
+  width: 33.333%;
+  /* text-align: center; */
+  vertical-align: top;
+
+  padding: 15px;
+}
+.box-1, .box-2, .box-3, p{
+  padding: 15px;
+}
